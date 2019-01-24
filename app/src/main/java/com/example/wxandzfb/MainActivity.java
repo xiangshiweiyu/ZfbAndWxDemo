@@ -19,7 +19,7 @@ import java.lang.ref.WeakReference;
 public class MainActivity extends AppCompatActivity {
 
     private MyHandler mHandler = new MyHandler(this);
-    private String from = "app_id=2018120562478522&biz_content=%7B%22out_trade_no%22%3A%2200308220190123151201256%22%2C%22product_code%22%3A%22QUICK_MSECURITY_PAY%22%2C%22total_amount%22%3A1.0%2C%22subject%22%3A%22%E6%9C%8D%E5%8A%A1%E8%B4%B9%22%2C%22body%22%3A%22%E6%9C%8D%E5%8A%A1%E8%B4%B9%22%2C%22timeout_express%22%3A%2215m%22%2C%22time_expire%22%3A%222019-01-23+15%3A27%3A01%22%2C%22disable_pay_channels%22%3A%22pcredit%2CpcreditpayInstallment%2CmoneyFund%22%7D&charset=UTF-8&format=JSON&method=alipay.trade.app.pay&notify_url=http%3A%2F%2F39.106.219.106%3A8090%2Fleniaopaynotify&return_url=http%3A%2F%2F39.106.219.106%3A8090%2Fleniaopayreturn&sign=JZYcyv0DKVebitO8wUtlTxXMwc2KJHmypZtzhdUunGUknIu3IEV%2BBWf2Cb0E%2FlwcufVKzb47bICeuYXT%2Fp6QgJixze3rsNGlLeGBDx%2FTEEe3RATfLkBwpyXCkMwPcHUuK4ri6JiB6oIEOfDAOW9WnlFpQZn4m%2B8XJCgzWDIHLGJm4%2BXwcApTMtADnNCCKkLbFz6I0zyO0MOfnr4Evg5xo84dAzYrV6g8yPQLfmKdqX5xX60NnzfRMrcznYYmNyXrrV69FC13428tiWR1p8pYNAqoQvNB%2F7rwG09WcizYkCB4a2vJB8wDIxd0jRB28qIvsUiUa4SKIjxGgjxhw%2Fyy5w%3D%3D&sign_type=RSA2&timestamp=2019-01-23+15%3A12%3A01&version=1.0";
+    private String from = "服务器返回的相关数据";
     private IWXAPI iwxapi;
 
     @Override
